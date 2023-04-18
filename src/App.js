@@ -1,10 +1,16 @@
-import {useState, useRef, useEffect, } from 'react';
+import {useState, useRef, useEffect } from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
+import TextForm from './components/TextForm';
 
 
-function App(props) {
-  return(<NavBar />)
+function App() {
+  return(
+    <>
+  <NavBar title= {"Element"}/>
+  <TextForm text= "Enter the details"/>
+  </>
+  )
 }
 
 
