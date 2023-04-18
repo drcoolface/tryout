@@ -1,13 +1,11 @@
-import logo from './logo.svg';
+import {useState, useRef, useEffect, } from 'react';
 import './App.css';
+import NavBar from './components/NavBar';
 
-function App(){
-  return (
-    <>
-    hello world
-    </>
 
-  )
+function App(props) {
+  return(<NavBar />)
 }
+
 
 export default App;
