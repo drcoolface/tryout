@@ -18,7 +18,7 @@ function NavBar(props) {
           <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">About</a>
+          <a className="nav-link" href="About.js">About</a>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -26,7 +26,7 @@ function NavBar(props) {
           </a>
           <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="/">Shop</a></li>
-            <li><a className="dropdown-item" href="/">Contact</a></li>
+            <li><a className="dropdown-item" href="">Contact</a></li>
 
           </ul>
         </li>

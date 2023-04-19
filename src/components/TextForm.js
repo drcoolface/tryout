@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 
 export default function TextForm(props) {
-    const [text, setText] =useState('Enter here')
+    const [text, setText] =useState('')
     
     const handleChange = (e) =>{
         setText(e.target.value)
